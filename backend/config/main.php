@@ -14,7 +14,6 @@ return [
     'modules' => [
 	 'admin' => [
         'class' => 'hail812\adminlte3\Module',
-        // Дополнительные настройки модуля, если нужно
     ],
 	],
     'components' => [
