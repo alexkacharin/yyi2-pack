@@ -12,11 +12,7 @@ $this->title = 'My Yii Application';
             <p><a class="btn btn-lg btn-success" href="https://www.yiiframework.com">Get started with Yii</a></p>
         </div>
     </div>
-<?php
-if (Yii::$app->user->can("Administrator")) {
-  echo '123123';
-}
-?>
+
     <div class="body-content">
 
         <div class="row">
